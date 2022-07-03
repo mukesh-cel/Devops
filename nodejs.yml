@@ -1,4 +1,4 @@
-7gmail0A@qyqh2
+echo deb http://apt.kubernetes.io/ kubernetes-xenial main > /etc/apt/sources.list.d/kubernetes.list7gmail0A@qyqh2
 
 wget https://releases.hashicorp.com/terraform/0.14.9/terraform_0.14.9_linux_amd64.zip
 
@@ -6,3 +6,7 @@ wget https://releases.hashicorp.com/terraform/0.14.9/terraform_0.14.9_linux_amd6
 sudo su
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
 sudo echo deb http://apt.kubernetes.io/ kubernetes-xenial main > /etc/apt/sources.list.d/kubernetes.list
+echo deb http://apt.kubernetes.io/ kubernetes-xenial main > /etc/apt/sources.list.d/kubernetes.list
+
+
+
